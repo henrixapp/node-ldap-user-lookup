@@ -1,0 +1,28 @@
+{
+  "name": "node-ldap-user-lookup",
+  "version": "0.0.2",
+  "description": "A user lookup module for nodejs, that returns user data on request from a server",
+  "main": "index.js",
+  "scripts": {
+    "prepublish":"coffee -c *.coffee",
+    "test": "node test.js",
+    "install":"coffee -c *.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/henrixapp/node-ldap-user-lookup.git"
+  },
+  "keywords": [
+    "ldap",
+    "client"
+  ],
+  "author": "Henrik Reinstädtler <henrixapp@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ldapjs": "~0.7.1",
+    "coffee-script": "~1.7.1"
+  },
+"devDependencies": {
+    "coffee-script": "~1.7.1"
+  }
+}
